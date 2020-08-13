@@ -35,5 +35,5 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           artifacts: "dist/webapp/*"
-          tag: "v1.1"
+          tag: ${{ github.ref }}
           token: ${{ secrets.TOKEN1 }}
