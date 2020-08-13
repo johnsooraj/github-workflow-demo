@@ -35,5 +35,5 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           artifacts: "dist/webapp/*"
-          tag: ${{ env.NOW }}
+          tag: "v1.1"
           token: ${{ secrets.TOKEN1 }}
