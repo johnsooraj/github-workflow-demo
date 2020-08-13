@@ -33,4 +33,4 @@ jobs:
         echo test, and deploy your project.
 
     - name: angular build
-      run: ng biuld
+      run: ng build
